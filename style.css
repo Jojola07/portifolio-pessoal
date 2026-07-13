@@ -1,4 +1,12 @@
+:root {
+    --preto: #0A0908;
+    --azul-escuro: #22333B;
+    --creme: #EAE0D5;
+    --khaki: #C6AC8F;
+    --marrom: #5E503F;
+    --laranja: #E67E22;
+}
+
 body {
-    margin: auto;
-    background-color: black;
+    background: var(--preto);
 }

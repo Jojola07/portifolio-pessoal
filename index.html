@@ -1,46 +1,77 @@
 <!DOCTYPE html>
-<html  lang="PT-br">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <title>Portifólio Pessoal</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Portifólio | Lucas</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="#recursos">Recursos</a>
-                <a href="#planos">Planos</a>
+        <header class="header">
+            <nav class="navbar">
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
             </nav>
         </header>
 
-        <section class="hero">
-            Hero
-            <form>
-                <input placeholder="Seu Nome">
+        <section id="sobre">
+            <div class="div-sobre">
+                <img src="perfil.png">
+                <h1>Texto Sobre Mim</h1>
+            </div>
+        </section>
 
-                <button>Enviar</button>
+        <section id="projetos">
+            <h2>Projetos:</h2>
+            <div class="div-projetos-fundo">
+                <div class="div-projetos">
+                    <!--Projeto 1, dps é só eu copiar e colar-->
+                    <img src="projeto1.png">
+                    <p>texto sobre projeto</p>
+                    <a class="botao-projeto" href="linksite">acessar</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Meios de Contato:</h2>
+            <div class="borda-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h4>texto sobre o contato</h4>
+
+            <h2>Formulário de Contato</h2>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+            action="https://formspree.io/f/mojgagez"
+            method="POST"
+            >
+            <label>
+                Seu Email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Sua Mensagem:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Enviar</button>
             </form>
         </section>
 
-        <section class="recursos">
-            recursos
-            <uL>
-                <li>Funçao 1</li>
-                <li>Outro</li>
-            </uL>
-        </section>
+        <footer class="footer">
+            <div class="div-ft-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#projetos">projetos</a></li>
+                     <li><a href="#contato">contato</a></li>
+                </ul>
+            </div>
 
-        <section class="planos">
-            planos
-        </section>
-
-        <section class="depoimentos">
-            depoimentos
-        </section>
-
-        <section class="footer">
-            footer
-        </section>
-
-        <footer>Copright 2026</footer>
+            <div class="div-ft-baixo">
+                <p>2026 direitos reservados e sla oque</p>
+            </div>
+        </footer>
     </body>
 </html>
