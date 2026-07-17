@@ -37,14 +37,21 @@ body {
 .div-sobre {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 200px;
     align-items: center;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
 }
 
 .div-sobre h1 {
     color: var(--creme);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.div-sobre img {
+    border-radius: 500px;
+    height: 150px;
+    box-shadow: 0 2 15 #000000;
 }
 
 #projetos h2 {
