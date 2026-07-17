@@ -10,3 +10,87 @@
 body {
     background: var(--preto);
 }
+
+.navbar {
+    background: none;
+    display: flex;
+    color: var(--creme);
+    justify-content: center;
+
+}
+
+.navbar a {
+    color: var(--creme);
+    gap: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--khaki);
+    
+}
+
+.div-sobre {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.div-sobre h1 {
+    color: var(--creme);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#projetos h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--creme);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-projetos-fundo {
+    background: var(--marrom);
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.div-projetos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: var(--azul-escuro);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 15px #0A0908;
+}
+
+.div-projetos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: var(--creme);
+    text-shadow: 0 1px 8px #0A0908;
+}
+
+.div-projetos a {
+    background: #E67E22;
+    border-radius: 30px;
+    padding: 10px;
+    color: #0A0908;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+
+.div-projetos a:hover {
+    background: #b6631b;
+}
