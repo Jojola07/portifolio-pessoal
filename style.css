@@ -7,8 +7,12 @@
     --laranja: #E67E22;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: var(--preto);
+    background: var(--azul-escuro);
 }
 
 .navbar {
@@ -27,6 +31,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    text-shadow: 0 0px 5px #000000;
 }
 
 .navbar a:hover {
@@ -51,7 +56,7 @@ body {
 .div-sobre img {
     border-radius: 500px;
     height: 150px;
-    box-shadow: 0 2 15 #000000;
+    box-shadow: 0 2px 15px #000000;
 }
 
 #projetos h2 {
@@ -61,6 +66,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 2px 15px #000000;
 }
 
 .div-projetos-fundo {
@@ -96,8 +102,56 @@ body {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.3s;
+    box-shadow: 0 2px 7px #000000;
 }
 
 .div-projetos a:hover {
     background: #b6631b;
+}
+
+#contato h2 {
+    margin-top: 300px;
+    text-align: center;
+    color: var(--creme);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 2px 15px #000000;
+}
+
+.borda-icon {
+    border: 2px solid #b6631b;
+    background: var(--preto);
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    color: var(--creme);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 5px #000000;
+}
+
+.borda-icon i {
+    color: #E67E22 ;
+    font-size: 67px;
+}
+
+.contato-fundo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.contato-fundo h4 {
+    color: var(--laranja);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-shadow: 0 0 5px #000000;
+    -webkit-text-stroke: #000000 1px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
 }
