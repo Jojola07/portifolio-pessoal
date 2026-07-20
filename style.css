@@ -161,3 +161,45 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+
+.form-fundo {
+    display: flex;
+    background: var(--khaki);
+    border-radius: 20px;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.form-fundo form {
+    background: var(--marrom);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #000000;
+}
+
+.form-fundo  form label {
+    color: var(--creme);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px #000000;
+    font-weight: bold;
+}
+
+form textarea {
+    background: var(--khaki);
+    border-radius: 10px;
+}
+
+form input {
+    background: var(--khaki);
+    border-radius: 10px;    
+}
+
+form button {
+    background: var(--laranja);
+    border-radius: 20px;
+}
+
